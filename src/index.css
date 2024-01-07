@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+input{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px sold grey;
+    margin: 10px;
+}
+
+.app-container div{
+    border: 2px solid grey;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.app-container div:hover{
+    background-color: white;
+    color: grey;
+}
